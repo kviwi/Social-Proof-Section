@@ -1,0 +1,137 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+
+  font-family: "League Spartan", sans-serif;
+}
+
+.section {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr;
+
+  width: 1256px;
+  height: 600px;
+}
+
+.header {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.header-info {
+}
+
+.header-heading {
+  font-size: 47px;
+  padding-right: 210px;
+  margin-bottom: 30px;
+  color: hsl(300, 43%, 22%);
+}
+
+.header-paragraph {
+  font-size: 17px;
+  padding-right: 220px;
+  line-height: 1.4;
+  color: hsl(303, 10%, 53%);
+}
+
+.reviews-container {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  align-self: center;
+}
+
+.reviews {
+  display: flex;
+  align-items: center;
+  gap: 35px;
+
+  width: 375px;
+  height: 40px;
+  padding: 20px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  border-radius: 7px;
+
+  background-color: hsl(300, 24%, 96%);
+}
+
+.reviews:nth-child(2) {
+  margin-left: 35px;
+}
+
+.reviews:nth-child(3) {
+  margin-left: 70px;
+}
+
+.reviews-label {
+}
+
+.footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 28px;
+}
+
+.testimonial {
+  background-color: hsl(300, 43%, 22%);
+  width: 400px;
+  height: 250px;
+  padding: 40px;
+  border-radius: 12px;
+}
+
+.footer .testimonial:nth-child(3) {
+  align-self: end;
+}
+
+.footer .testimonial:nth-child(2) {
+  align-self: center;
+}
+
+.personal-info {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 30px;
+}
+
+.id {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.id span:nth-child(1) {
+  color: hsl(0, 0%, 100%);
+  font-weight: 700;
+}
+
+.id span:nth-child(2) {
+  color: hsl(333, 80%, 67%);
+}
+
+.testimonial-text {
+  color: hsl(0, 0%, 100%);
+  padding-right: 59px;
+  line-height: 1.4;
+}
+
+.colton-text {
+  padding-right: 45px;
+}
+
+.testimonial-image {
+  width: 50px;
+  border-radius: 100px;
+}
